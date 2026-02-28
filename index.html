@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risma Dwi Az-Zahra | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#2c003e,#4b0082,#6a0dad);
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+header h2{
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#d8b4ff;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 10%;
+}
+
+.hero-text{
+    max-width:500px;
+}
+
+.hero-text h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#d8b4ff;
+}
+
+.hero-text p{
+    opacity:0.85;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#d8b4ff;
+    color:#2c003e;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.hero-img img{
+    width:320px;
+    border-radius:50%;
+    border:6px solid #d8b4ff;
+}
+
+.section{
+    padding:70px 10%;
+    background:white;
+    color:#333;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#6a0dad;
+}
+
+.skills{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.skill-box{
+    background:#f5f0fa;
+    padding:25px;
+    border-radius:15px;
+    width:200px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.skill-box:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#2c003e;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Risma.</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Risma Dwi Az-Zahra</span></h1>
+        <p>Saya mahasiswa Teknik Informatika yang tertarik pada pengembangan web dan teknologi digital. Saya senang belajar hal baru dan terus meningkatkan skill saya melalui project nyata.</p>
+        <a href="#" class="btn">Contact Me</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="https://i.imgur.com/7k12EPD.png" alt="Profile">
+    </div>
+</section>
+
+<section class="section">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <div class="skill-box">HTML & CSS</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">UI Design</div>
+        <div class="skill-box">Microsoft Office</div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Risma Dwi Az-Zahra | Elegant Purple Portfolio
+</footer>
+
+</body>
+</html>
