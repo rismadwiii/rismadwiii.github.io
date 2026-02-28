@@ -3,172 +3,111 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Risma Dwi Az-Zahra | Portfolio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins', sans-serif;
-}
-
-body{
-    background: linear-gradient(135deg,#2c003e,#4b0082,#6a0dad);
-    color:white;
-}
-
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 10%;
-}
-
-header h2{
-    font-weight:600;
-    letter-spacing:1px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:25px;
-    transition:0.3s;
-}
-
-nav a:hover{
-    color:#d8b4ff;
-}
-
-.hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:80px 10%;
-}
-
-.hero-text{
-    max-width:500px;
-}
-
-.hero-text h1{
-    font-size:45px;
-    margin-bottom:20px;
-}
-
-.hero-text span{
-    color:#d8b4ff;
-}
-
-.hero-text p{
-    opacity:0.85;
-    line-height:1.6;
-    margin-bottom:25px;
-}
-
-.btn{
-    display:inline-block;
-    padding:12px 25px;
-    background:#d8b4ff;
-    color:#2c003e;
-    border-radius:30px;
-    text-decoration:none;
-    font-weight:600;
-    transition:0.3s;
-}
-
-.btn:hover{
-    background:white;
-}
-
-.hero-img img{
-    width:320px;
-    border-radius:50%;
-    border:6px solid #d8b4ff;
-}
-
-.section{
-    padding:70px 10%;
-    background:white;
-    color:#333;
-}
-
-.section h2{
-    text-align:center;
-    margin-bottom:40px;
-    color:#6a0dad;
-}
-
-.skills{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
-}
-
-.skill-box{
-    background:#f5f0fa;
-    padding:25px;
-    border-radius:15px;
-    width:200px;
-    text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-    transition:0.3s;
-}
-
-.skill-box:hover{
-    transform:translateY(-5px);
-}
-
-footer{
-    text-align:center;
-    padding:20px;
-    background:#2c003e;
-    font-size:14px;
-}
-</style>
+<title>Risma Dwi Az-Zahra | CV</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h2>Risma.</h2>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+<div id="particles"></div>
 
-<section class="hero">
+<nav>
+    <h2 class="logo">fortofolio</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="section hero">
     <div class="hero-text">
-        <h1>Hi, I'm <span>Risma Dwi Az-Zahra</span></h1>
-        <p>Saya mahasiswa Teknik Informatika yang tertarik pada pengembangan web dan teknologi digital. Saya senang belajar hal baru dan terus meningkatkan skill saya melalui project nyata.</p>
-        <a href="#" class="btn">Contact Me</a>
+        <h1>Hi, I'm Risma Dwi Az-zahra</h1>
+        <h3>Mahasiswa Ilmu Komputer</h3>
+        <p>Saya adalah mahasiswa yang tertarik pada pengembangan web dan teknologi digital. Meskipun awalnya terasa rumit sebagai pemula, saya terus belajar dan berkembang. Bagi saya, teknologi bukan hanya tentang kode, tetapi tentang menciptakan solusi yang bermanfaat dan berdampak positif.</p>
+        <button>Hire Me</button>
     </div>
-
     <div class="hero-img">
-        <img src="https://i.imgur.com/7k12EPD.png" alt="Profile">
+        <img src="foto-saya.jpeg" alt="Foto Risma" class="profile-img">
     </div>
 </section>
 
-<section class="section">
-    <h2>My Skills</h2>
-    <div class="skills">
-        <div class="skill-box">HTML & CSS</div>
-        <div class="skill-box">Python</div>
-        <div class="skill-box">UI Design</div>
-        <div class="skill-box">Microsoft Office</div>
+<section id="about" class="section">
+    <h2>About</h2>
+    <div class="card">
+        <h3>Pendidikan</h3>
+        <p>S1 Ilmu Komputer (2024 - Sekarang)</p>
+        <p>Universitas Halu Oleo</p>
+    </div>
+    <div class="card">
+        <h3>Awal Belajar Coding</h3>
+        <p>Mulai belajar C++, Python, HTML, CSS, dan JavaScript sejak semester awal kuliah.</p>
     </div>
 </section>
 
-<footer>
-    © 2026 Risma Dwi Az-Zahra | Elegant Purple Portfolio
-</footer>
+<section id="projects" class="section">
+    <h2>Pengalaman</h2>
 
+    <div class="card">
+        <p>
+        Pada tahun 2026, saya mengembangkan website CV pribadi sebagai bentuk
+        pengaplikasian kemampuan HTML, CSS, dan JavaScript. Proyek ini membantu saya
+        memahami struktur pembuatan website, desain antarmuka, serta interaktivitas halaman.
+        </p>
+
+        <p>
+        Pada tahun 2025, saya terlibat dalam proyek pemrograman web sebagai anggota kelompok.
+        Dalam proyek tersebut, saya berkontribusi dalam pembuatan tampilan website, 
+        pengelolaan struktur halaman, serta desain.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <p>HTML/CSS</p>
+        <div class="bar"><div class="fill" style="width:30%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="bar"><div class="fill" style="width:30%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>Python</p>
+        <div class="bar"><div class="fill" style="width:40%"></div></div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email : 
+            <a href="mailto:rismadwiazzahra@gmail.com">
+                rismadwiazzahra@gmail.com
+            </a>
+        </p>
+
+        <p>Instagram : 
+            <a href="https://www.instagram.com/rsmadwiiii/" target="_blank">
+                @rsmadwiiii
+            </a>
+        </p>
+
+        <p>GitHub : 
+            <a href="https://github.com/rismadwiii" target="_blank">
+                github.com/rismadwiii
+            </a>
+        </p>
+
+        <p>No HP : 085135282025</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
