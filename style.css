@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#040c10;
+    color:white;
+    scroll-behavior:smooth;
+}
+
+#particles{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:url("https://www.transparenttextures.com/patterns/stardust.png");
+    z-index:-1;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 80px;
+    position:fixed;
+    width:100%;
+    background:black;
+    z-index:1000;
+}
+
+.logo{
+    color:#00ffff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:#00ffff;
+}
+
+.section{
+    padding:120px 10%;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-img img{
+    border-radius:50%;
+    border:4px solid #00ffff;
+    box-shadow:0 0 20px #00ffff;
+}
+
+button{
+    padding:10px 25px;
+    background:#00ffff;
+    border:none;
+    cursor:pointer;
+    box-shadow:0 0 15px #00ffff;
+}
+
+.card{
+    border:1px solid #00ffff;
+    padding:20px;
+    margin:20px 0;
+    box-shadow:0 0 15px #00ffff50;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th,td{
+    border:1px solid #00ffff;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#011f24;
+    cursor:pointer;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin:10px 0;
+    background:#011f24;
+    border:1px solid #00ffff;
+    color:white;
+}
+
+.bar{
+    background:#011f24;
+    height:10px;
+}
+
+.fill{
+    background:#00ffff;
+    height:10px;
+    box-shadow:0 0 10px #00ffff;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 300px;        /* Lebar */
+    height: 300px;       /* Tinggi sama agar proporsional */
+    object-fit: cover;   /* Agar tidak gepeng */
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
